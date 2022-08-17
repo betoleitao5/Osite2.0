@@ -6,8 +6,7 @@
 body{
   background: url(/img/card\ vg.jfif);
   background-repeat: no-repeat;
-  background-size: 200%;
-  background-position: center;
+  background-size: 1000%;
 }
 
 header{
@@ -16,6 +15,22 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+
+}
+
+nav{
+  width: 100px;
+  height: auto;
+  background-color: rgb(44, 44, 44);
+  margin-top:130px ;
+  position: absolute;
+}
+
+nav a{
+  font-size: x-large;
+  margin-right: 5px;
+  border-right: 1px solid black;
+  color: white;
 
 }
 
@@ -65,22 +80,11 @@ main button{
   display: inline-block;
 }
 
-nav{
-  width: 100px;
-  height: auto;
-  background-color: rgb(44, 44, 44);
-  margin-top:140px ;
-}
-
-nav a{
-  font-size: x-large;
-  margin-right: 5px;
-  border-right: 1px solid black;
-  color: white;
-
-}
-
 footer{
-    height: auto;
-    background-color: rgb(100, 100, 100);
+  height: auto;
+  background-color: rgb(100, 100, 100);
+}
+
+footer p{
+  margin-bottom: 0;
 }
