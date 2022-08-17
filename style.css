@@ -9,20 +9,10 @@ body{
   background-size: 1000%;
 }
 
-header{
-    height: 200px;
-    background: url(/img/card\ vg.jfif);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-
-}
-
 nav{
   width: 100px;
   height: auto;
   background-color: rgb(44, 44, 44);
-  margin-top:130px ;
   position: absolute;
 }
 
