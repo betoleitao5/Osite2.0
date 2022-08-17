@@ -3,15 +3,24 @@
     margin:0;
 }
 
+body{
+  background-color: blueviolet;
+}
+
 header{
     height: 200px;
     background-color: rgb(100, 100, 100);
 }
 
 main{
-    height: 500px;
+    height: auto;
     max-width: 500px;
     background-color: blueviolet;
+}
+
+.shrbar{
+  color: black;
+  background-color: rgb(100, 100, 100)
 }
 
 main button{
@@ -37,20 +46,17 @@ main img:first-of-type{
 }
 
 aside section{
-    height:100px ;
-    background-color: coral ;
+    height:auto ;
+    background-color: rgb(100, 100, 100) ;
 }
 
  aside{
-    height: 500px;
-    background-color: green;
+    height: auto;
+    background-color: blueviolet;
  }
 
- main section{
-    height: 240px;
-    background-color: red;
-    float: right;
-    position: absolute;
+ .card{
+  border: 1px solid red;
  }
 
  main section:first-of-type{
